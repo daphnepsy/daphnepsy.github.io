@@ -1,5 +1,5 @@
 <!-- Contact -->
-<section id="contact">
+<!-- <section id="contact">
 	<div class="inner">
 		<section>
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
@@ -61,11 +61,19 @@
 			</section>
 		</section>
 	</div>
-</section>
+</section> -->
 
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Contact Me</h3>
+					<a href="#">{{ site.email }}</a>
+				</div>
+			</section>
+			<section class="split">
 			<ul class="icons">
 				{% if site.twitter_url %}
 				<li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
@@ -104,6 +112,7 @@
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
 
 			</ul>
+			</section>
 		</div>
 	</footer>
 
