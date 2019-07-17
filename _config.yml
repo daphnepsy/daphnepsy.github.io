@@ -2,7 +2,7 @@
 title: Daphne Poon
 subtitle:
 email: dpoon@hmc.edu
-description: 'My name is Daphne, and I am a sophomore engineering major at Harvey Mudd College, looking for internships which allow me to improve the lives of those less privileged than myself using my background in robotics, software, and engineering.'
+description: 'Click around to look at my projects, posts, and just to learn more about me!'
 baseurl:  # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
@@ -15,7 +15,7 @@ phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 5
+tiles-count: 6
 
 # social settings
 500px_url:
@@ -31,6 +31,7 @@ twitter_url: https://twitter.com/daphneeep
 
 # build settings
 markdown: kramdown
-
+plugins:
+  - jekyll-seo-tag
 sass:
   style: compressed
