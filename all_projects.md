@@ -10,10 +10,10 @@ show_tile: true
 <!-- Main -->
 <div id="main">
 
-<!-- One -->
 <section id="one" class="spotlights">
+<!-- One -->
 	<section>
-		<a href="#" class="image">
+		<a href="projects/autonomous-ocean-robot" class="image">
 			<img src="assets/images/weatherstation.JPG" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -23,13 +23,13 @@ show_tile: true
 				</header>
 				<p>For an engineering class, my team and I built a robot that could navigate autonomously to gather data about wind speed and current speed near-shore, in order to quantify the effects of one on the other.</p>
 				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
+					<li><a href="projects/autonomous-ocean-robot" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="projects/autonomous-loader.html" class="image">
+		<a href="projects/autonomous-loader" class="image">
 			<img src="assets/images/rrt.png" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -39,13 +39,13 @@ show_tile: true
 				</header>
 				<p>During the summer of 2018, I worked in the Lab for Autonomous and Intelligent Robotics at Harvey Mudd College, writing code and designing sensor systems that would allow a construction loader to traverse an unmapped area and avoid obstacles.</p>
 				<ul class="actions">
-					<li><a href="projects/autonomous-loader.html" class="button">Learn more</a></li>
+					<li><a href="projects/autonomous-loader" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image">
+		<a href="projects/gemini" class="image">
 			<img src="assets/images/gemini.png" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
@@ -55,7 +55,7 @@ show_tile: true
 				</header>
 				<p>In my first semester of college, I took an Autonomous Vehicles class, where I designed, programmed and constructed two autonomous robots over 45+ hours using Arduino, with a teammate. We placed second out of over 20 teams.</p>
 				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
+					<li><a href="projects/gemini" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -74,7 +74,7 @@ show_tile: true
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image">
+		<a href="projects/arnold" class="image">
 			<img src="assets/images/arnold.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -84,13 +84,13 @@ show_tile: true
 				</header>
 				<p>Named after our then-headmistress' husband.</p>
 				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
+					<li><a href="projects/arnold" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image">
+		<a href="projects/rex-powers" class="image">
 			<img src="assets/images/rex.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -100,7 +100,7 @@ show_tile: true
 				</header>
 				<p>We wanted to choose a name that 'sounded like it could belong to a porn star'.</p>
 				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
+					<li><a href="projects/rex-powers" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>

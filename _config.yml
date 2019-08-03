@@ -20,14 +20,14 @@ tiles-count: 6
 # social settings
 500px_url:
 facebook_url:
-github_url: https://github.com/u/daphne-poon
+github_url: https://github.com/daphne-poon
 gitlab_url: 
 googleplus_url: 
-instagram_url: https://instagram.com/da.phne.p
+instagram_url:
 linkedin_url: https://www.linkedin.com/in/daphne-poon-sy
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/daphneeep
+twitter_url:
 
 # build settings
 markdown: kramdown
