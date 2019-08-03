@@ -91,7 +91,7 @@ show_tile: true
 	</section>
 	<section>
 		<a href="projects/rex-powers" class="image">
-			<img src="assets/images/rex.jpg" alt="" data-position="center center" />
+			<img src="assets/images/rex.png" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
