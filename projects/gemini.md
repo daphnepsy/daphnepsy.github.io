@@ -1,12 +1,17 @@
 ---
 layout: post
-title: Autonomous Loader
+title: Gemini
 description: Vroom vrooom
-image: assets/images/rrt.png
 nav-menu: false
 show_tile: false
 ---
-Starting Summer 2018, LAIR has been developing an autonomous track loader. This research aims to give the loader autonomous mapping and navigation capabilities, allowing it to traverse an unmapped area and avoid obstacles. These capabilities will be extended to accommodate moving obstacles. The system is being implemented and tested on Harvey Mudd College's campus.
+<p align="center">
+    <embed src="../assets/videos/cutiepatootie.mp4" width="600" height="400" autostart="true" />
+</p>
 
-For more details, see https://www.lair.hmc.edu/autonomous-loader/
-https://www.lair.hmc.edu/daphne-poon/
+The pride and joy of my first semester at Harvey Mudd. In my Autonomous Vehicles class, my teammate and I designed, programmed and constructed two autonomous robots (named Castor and Pollux) over 45+ hours using Arduino. The goal was to play capture the flag by sending encoded signals to a series of beacons on a game board. We placed second out of over 20 teams.
+
+
+<p align="center">
+    <object data="../assets/files/e11report.pdf" width="600" height="600" type='application/pdf'>
+</p>

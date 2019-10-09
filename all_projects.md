@@ -13,6 +13,22 @@ show_tile: true
 <section id="one" class="spotlights">
 <!-- One -->
 	<section>
+		<a href="projects/acr" class="image">
+			<img src="assets/images/acr.png" width="210" height="315" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Fall 2019: Autonomous Campus Vehicle</h3>
+				</header>
+				<p>Building Harvey Mudd's first autonomous campus vehicle for food/package deliveries!</p>
+				<ul class="actions">
+					<li><a href="projects/acr" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
 		<a href="projects/autonomous-ocean-robot" class="image">
 			<img src="assets/images/weatherstation.JPG" alt="" data-position="center center" />
 		</a>
@@ -40,6 +56,22 @@ show_tile: true
 				<p>During the summer of 2018, I worked in the Lab for Autonomous and Intelligent Robotics at Harvey Mudd College, writing code and designing sensor systems that would allow a construction loader to traverse an unmapped area and avoid obstacles.</p>
 				<ul class="actions">
 					<li><a href="projects/autonomous-loader" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+		<section>
+		<a href="projects/sleep-apnea" class="image">
+			<img src="assets/images/trd.png" height="400" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Spring 2018: Sleep Apnea Device</h3>
+				</header>
+				<p>For a class on Engineering Design, I designed and built an improved tongue retaining device for use by those with sleep apnea on a team of 4.</p>
+				<ul class="actions">
+					<li><a href="projects/sleep-ap" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -83,9 +115,6 @@ show_tile: true
 					<h3>Fall 2015 - Spring 2016: Arnold</h3>
 				</header>
 				<p>Named after our then-headmistress' husband.</p>
-				<ul class="actions">
-					<li><a href="projects/arnold" class="button">Learn more</a></li>
-				</ul>
 			</div>
 		</div>
 	</section>
@@ -99,9 +128,6 @@ show_tile: true
 					<h3>Spring 2015: Rex Powers</h3>
 				</header>
 				<p>We wanted to choose a name that 'sounded like it could belong to a porn star'.</p>
-				<ul class="actions">
-					<li><a href="projects/rex-powers" class="button">Learn more</a></li>
-				</ul>
 			</div>
 		</div>
 	</section>
