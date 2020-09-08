@@ -23,11 +23,12 @@ facebook_url:
 github_url: https://github.com/daphne-poon
 gitlab_url: 
 googleplus_url: 
-instagram_url:
+instagram_url: https://www.instagram.com/da.phne.p
 linkedin_url: https://www.linkedin.com/in/daphne-poon-sy
 pinterest_url:
 slack_url:
 twitter_url:
+conner_url: https://dipaolo.xyz
 
 # build settings
 markdown: kramdown

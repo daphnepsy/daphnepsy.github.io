@@ -14,7 +14,7 @@ show_tile: true
 <!-- One -->
 	<section>
 		<a href="projects/acr" class="image">
-			<img src="assets/images/acr.png" width="210" height="315" alt="" data-position="center center" />
+			<img src="assets/images/acr_car.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
