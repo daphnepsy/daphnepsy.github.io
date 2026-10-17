@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Home
 ---
 
 <span class="image right"><img src="{{ '/assets/images/myface.jpg' | relative_url }}" alt="Daphne smiling" /></span>
