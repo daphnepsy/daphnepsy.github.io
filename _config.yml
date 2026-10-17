@@ -30,9 +30,22 @@ slack_url:
 twitter_url: https://twitter.com/daphneeep
 heart_url: https://dipaolo.xyz
 
+# projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+defaults:
+  - scope:
+      type: projects
+    values:
+      layout: post
+
 # build settings
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 sass:
   style: compressed

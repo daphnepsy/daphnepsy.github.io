@@ -1,0 +1,19 @@
+# Projects shown on the projects page that have no page of their own.
+# Projects with a page live in _projects/.
+- title: Drone
+  period: Fall 2016
+  order: 6
+  image: assets/images/drone.png
+  summary: Didn't work out so well.
+
+- title: Arnold
+  period: Fall 2015 - Spring 2016
+  order: 7
+  image: assets/images/arnold.jpg
+  summary: Named after our then-headmistress' husband.
+
+- title: Rex Powers
+  period: Spring 2015
+  order: 8
+  image: assets/images/rex.png
+  summary: We wanted to choose a name that 'sounded like it could belong to a porn star'.
