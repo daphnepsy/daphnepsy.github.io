@@ -2,20 +2,9 @@
 title: Daphne Poon
 subtitle:
 email: dpoon@hmc.edu
-description: 'Click around to look at my projects, posts, and just to learn more about me!'
-baseurl:  # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 340 E Foothill Blvd
-city: Claremont
-state: CA
-zip_code: 91711
-country: USA
-phone:
-
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+description: 'Click around to look at my projects and learn more about me!'
+url: https://daphnepoon.com # matches CNAME
+baseurl:
 
 # footer links (icon is a Font Awesome 4 class)
 social:
@@ -51,3 +40,9 @@ plugins:
   - jekyll-redirect-from
 sass:
   style: compressed
+exclude:
+  - README.md
+  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
