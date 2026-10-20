@@ -1,5 +1,5 @@
 ---
-title: Selected Robots
+title: Some Robots
 redirect_from: /all_projects
 layout: landing
 ---
