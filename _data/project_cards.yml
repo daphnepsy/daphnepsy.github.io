@@ -1,5 +1,13 @@
 # Projects shown on the projects page that have no page of their own.
+# 'link' (optional) sends the card to another site.
 # Projects with a page live in _projects/.
+- title: Waymo
+  period: Since 2021
+  order: 0
+  image: assets/images/waymo.jpg
+  summary: Building the world's best driver.
+  link: https://waymo.com/
+
 - title: Drone
   period: Fall 2016
   order: 6

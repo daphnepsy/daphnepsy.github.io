@@ -1,5 +1,5 @@
 ---
-title: Some Robots
+title: Robots I've worked on
 redirect_from: /all_projects
 layout: landing
 ---
