@@ -19,7 +19,6 @@ Then open http://localhost:4000.
 | Project pages | `_projects/*.md` |
 | Projects with only a card (no page) | `_data/project_cards.yml` |
 | Footer social links, site title, email | `_config.yml` |
-| Resume | `assets/files/resume.pdf` |
 
 ## Adding a project
 
