@@ -4,7 +4,7 @@ layout: home
 
 <span class="image right"><img src="{{ '/assets/images/myface.jpg' | relative_url }}" alt="Daphne smiling" /></span>
 
-Hi! My name is Daphne, I was born and raised in Hong Kong, before coming to the US in 2017. I'm my happiest when I get to work on projects at the intersection of engineering, computer science, and robotics. I studied CS and Math at Harvey Mudd College until 2021, and since then I've been working at Waymo, helping self-driving cars make better lane changes. Since graduating, I've bounced around San Francisco, London, and finally New York City, where I now live with my [husband](https://dipaolo.xyz/).
+Hi! My name is Daphne, I was born and raised in Hong Kong, before coming to the US for college. I'm my happiest when I get to work on projects at the intersection of engineering, computer science, and robotics. I studied Computer Science and Math at Harvey Mudd College, and since then I've been working at Waymo, helping self-driving cars make better lane changes. Since graduating, I've bounced around San Francisco, London, and finally New York City, where I now live with my [husband](https://dipaolo.xyz/).
 
 In my free time, I like to do yoga, rock climb, and call friends and family.
 
