@@ -8,4 +8,4 @@ Hi! My name is Daphne, and I was born and raised in Hong Kong before coming to t
 
 I studied Computer Science and Math at Harvey Mudd College, and since then I've worked at Waymo, helping self-driving cars make better lane changes. Along the way, I've bounced around San Francisco, London, and finally New York City, where I now live with my [husband](https://dipaolo.xyz/) :)
 
-In my free time, I enjoy [baking](https://www.instagram.com/daphgetsbaked/), climbing, reading, and hosting friends in my tiny NYC apartment.
+In my free time, I enjoy [baking](https://www.instagram.com/daphgetsbaked/), climbing, reading, [traveling](https://daphnepoon.notion.site/), and hosting friends in my tiny NYC apartment.
