@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<span class="image right"><img src="{{ '/assets/images/myface.jpg' | relative_url }}" alt="Daphne smiling" /></span>
+<span class="image right profile"><img src="{{ '/assets/images/myface.jpg' | relative_url }}" alt="Daphne smiling" /></span>
 
 Hi! My name is Daphne, and I was born and raised in Hong Kong before coming to the US for college. I'm my happiest when I get to work on cool robots, and I'm especially excited about solving problems around community and urbanism. I strive to better the world through my work.
 
