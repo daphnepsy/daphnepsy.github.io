@@ -1,5 +1,6 @@
 ---
 title: Selected Robots
+redirect_from: /all_projects
 layout: landing
 ---
 
