@@ -59,6 +59,12 @@
 		margin: 0 0 _size(element-margin) 0;
 	}
 
+	// Keep project write-ups to a comfortable line length (centered media blocks are exempt).
+	.project-body > p:not([align]),
+	.project-body > ul:not(.actions) {
+		max-width: 75ch;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);

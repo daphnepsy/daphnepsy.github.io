@@ -40,6 +40,15 @@ img {
 			top: 0.25em;
 		}
 
+		// Homepage photo: sized so it doesn't hang below the bio on desktop.
+		&.profile {
+			max-width: 22%;
+
+			@include breakpoint(small) {
+				max-width: 30%;
+			}
+		}
+
 		&.fit {
 			display: block;
 			margin: 0 0 _size(element-margin) 0;

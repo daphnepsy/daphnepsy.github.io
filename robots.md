@@ -1,5 +1,6 @@
 ---
-title: My Projects
+title: Some Robots
+redirect_from: /all_projects
 layout: landing
 ---
 

@@ -1,8 +1,8 @@
 # site settings
 title: Daphne Poon
 subtitle:
-email: dpoon@hmc.edu
-description: 'Click around to look at my projects and learn more about me!'
+email: daphne.poonsy@gmail.com
+description: '' # empty, so the homepage tab title is just the site title
 url: https://daphnepoon.com # matches CNAME
 baseurl:
 
