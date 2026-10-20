@@ -1,0 +1,19 @@
+{% assign project = include.project %}
+<section>
+	{% if project.url %}<a href="{{ project.url | relative_url }}" class="image">{% else %}<span class="image">{% endif %}
+		<img src="{{ project.image | relative_url }}" alt="{{ project.title }}"{% if project.image_height %} height="{{ project.image_height }}"{% endif %} data-position="{{ project.image_position | default: 'center center' }}" />
+	{% if project.url %}</a>{% else %}</span>{% endif %}
+	<div class="content">
+		<div class="inner">
+			<header class="major">
+				<h3>{{ project.period }}: {{ project.title }}</h3>
+			</header>
+			<p>{{ project.summary }}</p>
+			{% if project.url %}
+			<ul class="actions">
+				<li><a href="{{ project.url | relative_url }}" class="button">Learn more</a></li>
+			</ul>
+			{% endif %}
+		</div>
+	</div>
+</section>

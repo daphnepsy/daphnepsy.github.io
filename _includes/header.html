@@ -3,9 +3,9 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>DP</strong> <span>{{ site.subtitle }}</span></a>
-	<ul class="actions small" text-align="right">
-		<li><a href="/all_projects" class="button reallyspecial fit small">Projects</a></li>
-		<li><a href="/assets/files/resume.pdf" class="button reallyspecial fit small">Resume</a></li>
+	<a href="{{ "/" | relative_url }}" class="logo"><strong>DP</strong> <span>{{ site.subtitle }}</span></a>
+	<ul class="actions small">
+		<li><a href="{{ "/all_projects" | relative_url }}" class="button reallyspecial fit small">Projects</a></li>
+		<li><a href="{{ "/assets/files/resume.pdf" | relative_url }}" class="button reallyspecial fit small">Resume</a></li>
 	</ul>
 </header>

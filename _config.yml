@@ -2,37 +2,47 @@
 title: Daphne Poon
 subtitle:
 email: dpoon@hmc.edu
-description: 'Click around to look at my projects, posts, and just to learn more about me!'
-baseurl:  # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 340 E Foothill Blvd
-city: Claremont
-state: CA
-zip_code: 91711
-country: USA
-phone:
+description: 'Click around to look at my projects and learn more about me!'
+url: https://daphnepoon.com # matches CNAME
+baseurl:
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+# footer links (icon is a Font Awesome 4 class)
+social:
+  - name: Twitter
+    url: https://twitter.com/daphneeep
+    icon: fa-twitter
+  - name: GitHub
+    url: https://github.com/daphnepsy
+    icon: fa-github
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/daphne-poon
+    icon: fa-linkedin
+  - name: Heart
+    url: https://dipaolo.xyz
+    icon: fa-heart-o
 
-# social settings
-500px_url:
-facebook_url:
-github_url: https://github.com/daphnepsy
-gitlab_url: 
-googleplus_url: 
-instagram_url:
-linkedin_url: https://www.linkedin.com/in/daphne-poon
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/daphneeep
-heart_url: https://dipaolo.xyz
+# projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+defaults:
+  - scope:
+      type: projects
+    values:
+      layout: project
 
 # build settings
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 sass:
   style: compressed
+exclude:
+  - README.md
+  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
