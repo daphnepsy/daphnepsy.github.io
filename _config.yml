@@ -26,20 +26,12 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  # digital garden notes, written in Obsidian (see README)
-  notes:
-    output: true
-    permalink: /garden/:name
 
 defaults:
   - scope:
       type: projects
     values:
       layout: project
-  - scope:
-      type: notes
-    values:
-      layout: note
 
 # build settings
 markdown: kramdown
@@ -54,4 +46,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - _templates
