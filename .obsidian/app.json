@@ -1,0 +1,21 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_notes",
+  "attachmentFolderPath": "assets/garden",
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "_site/",
+    "_sass/",
+    "_includes/",
+    "_layouts/",
+    "_plugins/",
+    "_projects/",
+    "_data/",
+    "vendor/",
+    "assets/css/",
+    "assets/fonts/",
+    "assets/js/"
+  ]
+}
