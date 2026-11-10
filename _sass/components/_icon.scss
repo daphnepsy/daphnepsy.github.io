@@ -29,6 +29,28 @@
 		}
 	}
 
+	// Icons drawn with an inline SVG instead of a Font Awesome glyph:
+	// the :before circle stays, and the SVG sits centered on top of it.
+	.icon.icon-svg {
+		display: inline-block;
+
+		&:before {
+			content: '';
+			vertical-align: middle;
+		}
+
+		> svg {
+			color: _palette(bg);
+			height: 1.1em;
+			left: 50%;
+			pointer-events: none;
+			position: absolute;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			width: 1.1em;
+		}
+	}
+
 	a.icon {
 		&.alt {
 			&:before {
@@ -47,4 +69,4 @@
 				}
 			}
 		}
-	}
+	}

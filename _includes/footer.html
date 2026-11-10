@@ -4,7 +4,11 @@
 			<ul class="icons">
 				<li><a href="mailto:{{ site.email }}" class="icon alt fa-envelope-o" target="_blank"><span class="label">{{ site.email }}</span></a></li>
 				{% for link in site.social %}
+				{% if link.svg %}
+				<li><a href="{{ link.url }}" class="icon alt icon-svg" target="_blank">{% include icons/{{ link.svg }} %}<span class="label">{{ link.name }}</span></a></li>
+				{% else %}
 				<li><a href="{{ link.url }}" class="icon alt {{ link.icon }}" target="_blank"><span class="label">{{ link.name }}</span></a></li>
+				{% endif %}
 				{% endfor %}
 			</ul>
 			<ul class="copyright">

@@ -6,7 +6,7 @@ description: '' # empty, so the homepage tab title is just the site title
 url: https://daphnepoon.com # matches CNAME
 baseurl:
 
-# footer links (icon is a Font Awesome 4 class)
+# footer links (icon is a Font Awesome 4 class, or set svg to a file in _includes/icons/)
 social:
   - name: Twitter
     url: https://twitter.com/daphneeep
@@ -20,6 +20,9 @@ social:
   - name: Heart
     url: https://dipaolo.xyz
     icon: fa-heart-o
+  - name: Garden
+    url: https://garden.daphnepoon.com
+    svg: leaf.svg
 
 # projects
 collections:
